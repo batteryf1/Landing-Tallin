@@ -1,0 +1,402 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.volna1_in {
+    margin-bottom: 30px;
+}
+
+}
+
+@media only screen and (max-width : 1199px) {
+
+.use_select1 {
+    margin-left: 35px;
+}
+
+.use_input {
+    margin-left: 33px;
+}
+
+.user_select_after:after {
+    left: 250px;
+}
+
+.photo_img_hover div{
+	height: 270px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 991px) {
+
+.photo_img_hover div{
+	height: 350px;
+}
+
+	.photo_img_hover {
+    padding-bottom: 5px;
+}
+
+.new-year-people_input{
+	padding-bottom: 5px;
+}
+
+.packet_tour_foto_in {
+    padding-bottom: 10px;
+}
+
+.new_year_people {
+	background-size: cover;
+}
+
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 38px;
+}
+
+.packet_cruis_button_a {
+    padding-top: 38px;
+    clear: both;
+}
+
+.snow_round-text_packet {
+     padding-bottom: 0px; 
+}
+
+.packet_cruis {
+	background-size: cover;
+}
+
+.alone_volna_white {
+    padding-bottom: 50px;
+}
+
+.packet_on {
+    background-size: cover;
+}
+
+.packet_on .alone_text1_packet1{
+	color: white;
+}
+
+.new-year-people_input input {
+    text-align: center;
+}
+
+.footer_text {
+    padding-top: 13px;
+}
+
+.footer_bank div{
+    padding-left: 10px;
+}
+
+.user_select_after:after {
+    left: 100%;
+}
+
+.use_input {
+margin-left: 20px;
+}
+
+.use_button {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.use_select1 {
+     margin-left: 10px; 
+}
+
+.extra_two_fon {
+    height: 100%;
+    background-image: url(../images/extra3.png);
+    background-position: 0;
+}
+
+.extra_two_fon1{
+    background-image: url(../images/extra4.png);
+}
+
+// .extra_fon {
+//     height: 100%;
+// }
+
+// .fon-hide_black {
+//     left: 60px;
+//     right: 60px;
+// }
+
+.packet_tour_foto_in_block {
+    margin: 0 auto;
+    width: 600px;
+    /* max-width: 100%; */
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+.snow_round-text_packet{
+font-size: 16px;
+}
+
+.packet_on_text_mini{
+    padding-top: 25px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+.snow_round-text_packet{
+font-size: 22px;
+}
+
+.new_year_alone{
+	overflow: hidden;
+}
+.new_year_seven{
+background-size: cover;
+}
+
+.header ul li{
+    padding-top: 1px;
+    padding-left: 3px;
+}
+
+.new_year_seven1_text{
+text-align: center;
+}
+
+.who_snow_block .row .col-md-3 {
+    width: 100%;
+}
+
+.who_snow_block .snow_block1{
+padding-top: 30px;
+}
+
+.new_year_people_down1 {
+    background-position: 96% 50%;
+}
+
+// .snow_round-foto_packet_min_on {
+//     display: none;
+// }
+
+.new_year_people_copi_but{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.header{
+	padding-top: 10px;
+}
+
+.packet_on_text {
+    padding-top: 10px;
+}
+
+.travel_photo {
+    padding-bottom: 67px;
+}
+
+.footer_soc {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.footer_bank {
+    width: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.photo_img_hover{
+    width: 50%;
+    float: left;
+}
+
+// .photo_img_hover div {
+//     height: 250px;
+// }
+
+.volnu {
+    padding-bottom: 53px;
+}
+
+.photo_img_hover .product_description {
+    bottom: -52px;
+    padding: 15px 5px;
+    height: 58px;
+}
+
+.user_select_after {
+    width: 260px;
+    margin: 0 auto;
+}
+
+.use_select1{
+	width: 260px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.user_select_after:after {
+    bottom: -10px;
+}
+
+.use_input{
+	margin: 0 auto;
+    margin-top: 10px;
+}
+
+.snow_round-foto_packet_min {
+    top: -58px;
+    left: 0%;
+    right: 0;
+}
+
+.snow_round-foto_packet_block_on{
+    padding-bottom: 70px;
+}
+
+.snow_round-foto_packet_block_on:last-child{
+    padding-bottom: 0px;
+}
+
+.alone_select .col-lg-offset-1 {
+    margin-left: 9.433333%;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 630px) {
+.fon-hide_black {
+    left: 0px;
+    right: 0px; 
+}
+
+.packet_tour_foto_in_block {
+    /* margin: 0 auto; */
+    width: 100%;
+    /* max-width: 100%; */
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+    /* height: 170px; */
+}
+
+}
+@media only screen and (max-width : 563px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 47px;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 483px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 60px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.photo_img_hover{
+    width: 100%;
+    float: none;
+}
+
+// .photo_img_hover:first-child{
+//     padding-top: 0px;
+// }
+
+.photo_img_hover{
+    padding-top: 20px;
+}
+
+.packet_tour_foto_in:first-child {
+    padding-top: 0px;
+}
+
+.packet_tour_foto_in {
+    padding-top: 20px;
+}
+
+.packet_on .col-md-offset-1 {
+    margin-left: 0%;
+}
+
+.photo_img_hover div {
+    height: 350px;
+}
+
+.volnu {
+     padding-bottom: 0px; 
+}
+
+.photo_img_hover div:hover {
+    // border-bottom: 0;
+}
+
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 60px;
+}
+
+.new_year_snow_blue_copi .snow_round-text {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 457px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 69px;
+}
+}
+
+@media only screen and (max-width : 398px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 80px;
+}
+}
+
+@media only screen and (max-width : 378px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 90px;
+}
+}
+
+@media only screen and (max-width : 344px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 100px;
+}
+}
+
+@media only screen and (max-width : 326px) {
+.new_year_people .new_year_people_down1_2 {
+    padding-top: 111px;
+}
+}

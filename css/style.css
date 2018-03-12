@@ -1,0 +1,1120 @@
+.wraper{
+
+}
+
+input, textarea, select:focus{
+    outline:none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.select2, button, .sorting_select2, .select2-container, .select2-selection__rendered, .select2-selection__arrow, .dropdown-wrapper, #select2-t3q2-container, .select2-selection, .select2-selection--single, .selection, .select2, .select2-container, .select2-container--default, .select2-container--below, .sorting_select2:focus{
+    outline:none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.header{
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    max-width: 1920px;
+    padding-top: 10px;
+    z-index: 1052;
+}
+
+.header ul li{
+
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 30px;
+    // padding-top: 10px;
+    font-family: "RobotoLight";
+    font-size: 14px;
+
+}
+
+.header ul li a{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.header ul li:first-child{
+    padding-left: 0px;
+}
+
+.header ul li:before {
+    color: #f99600;
+    content: "\2022"; /* Сам маркер */
+    padding-right: 5px;
+}
+
+.header ul {
+    color: #ffffff;
+}
+
+.header div:first-child{
+    color: #ffffff;
+}
+
+.new_year_seven{
+    background-image: url(../images/new_year.png); /* Путь к фоновому рисунку */
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 1920px;
+}
+
+.new_year_seven1{
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.new_year_seven1_text div span:nth-child(2){
+    padding-left: 5px;
+}
+
+.new_year_seven1_text .glyphicon {
+    top: 2px;
+}
+
+.new_year_seven1_after{
+    overflow: hidden;
+}
+
+.new_year_seven1_after:after {
+    height: 5px;
+    content: "";
+    background-image: url(../images/volnu.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    bottom: 100px;
+    left: 0;
+    position: absolute;
+    width: 98%;
+}
+
+.volnu{
+    position: relative;
+}
+
+.new_year_seven1_text{
+    color: #f99600;
+    font-family: "RobotoLight";
+    font-size: 14px;
+}
+
+.new_year_seven2{
+
+}
+
+.new_year_seven2_text{
+    color: #ffffff;
+    font-family: "RobotoMedium";
+    font-size: 40px;
+}
+
+.new_year_seven2_text1{
+    padding-top: 35px;
+    padding-bottom: 124px;
+}
+
+.new_year_snow_blue{
+    background-image: url(../images/snow_blue_copi.png); /* Путь к фоновому рисунку */
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 1920px;
+}
+
+.new_year_snow_blue1{
+
+}
+
+.who_snow_block{
+ padding-bottom: 50px;
+}
+
+.who_snow_block_text{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.snow_round-foto{
+    width: 98px;
+    height: 98px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    overflow: hidden;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -webkit-box-shadow: inset inset 0px 0px 0px 3px rgb(91,159,217);
+    -moz-box-shadow: inset 0px 0px 0px 3px rgb(91,159,217);
+    box-shadow: inset 0px 0px 0px 3px rgb(91,159,217);
+    margin: 0 auto;
+}
+
+.snow_round-foto_hover{
+    padding-top: 24px;
+}
+
+.snow_round-foto_bas{
+
+}
+
+.snow_round-foto_bas_hover{
+    padding-top: 32px;
+    width: 98px;
+    height: 98px;
+}
+
+.snow_round-foto_cater{
+    // padding-top: 20px;
+}
+
+.snow_round-foto_cater_hover{
+    width: 98px;
+    height: 98px;
+    padding-top: 20px;
+}
+
+.snow_round-text{
+    color: #ffffff;
+    font-family: "RobotoLight";
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+
+.snow_round-text1{
+    font-family: "RobotoBold";
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.snow_round-text1 span{
+    padding: 5px;
+    background-color: #2d74b2;
+    border-radius: 3px;
+    // border: 1px solid #2769a1;
+    -webkit-box-shadow: inset inset 0px 0px 0px 1px #2769a1;
+    -moz-box-shadow: inset 0px 0px 0px 1px #2769a1;
+    box-shadow: inset 0px 0px 0px 1px #2769a1;
+}
+
+.snow_round-text2{
+    color: #ffffff;
+    font-family: "RobotoLight";
+    font-size: 16px;
+}
+
+.snow_round-text2 span{
+
+}
+
+.snow_round-foto img{
+}
+
+.who_snow_block .row .col-md-3 {
+    width: 33%;
+}
+
+.snow_round-text span{
+    border-bottom: 2px dashed #ffffff;
+}
+
+.snow_round-text span a, .snow_round-text1 span a, .snow_round-text2 span a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.new_year_alone{
+    padding-top: 47px;
+    // padding-bottom: 50px;
+    position: relative;
+    max-width: 1920px;
+}
+
+.alone_select{
+    padding-bottom: 45px;
+}
+
+.alone_volna{
+    height: 5px;
+    background-image: url(../images/volnu_grey.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left: 2%;
+    top: 0;
+    bottom: 0;
+    width: 96%;
+}
+
+.alone_text{
+    font-family: "RobotoLight";
+    font-size: 40px;
+    background-image: url(../images/icon_map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alone_text1{
+    font-family: "RobotoLight";
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.alone_text1 span{
+    font-family: "RobotoBold";
+}
+
+.use_select1{
+    margin-left: 15px;
+}
+
+.alone_form{
+    position: relative;
+}
+
+.user_select_after{
+    position: relative;
+}
+
+.user_select_after:after{
+    height: 15px;
+    content: "";
+    background-image: url(../images/arrow.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    bottom: 11px;
+    left: 103%;
+    position: absolute;
+    width: 9%;
+}
+
+
+.alone_select .col-lg-offset-1 {
+    margin-left: 5.633333%;
+}
+
+.photo_img_hover div{
+    overflow: hidden;
+    /* position: relative; */
+    height: 350px;
+    padding: 1px;
+    z-index: 1;
+    border: 1px solid #c5d4e9;
+}
+
+.alone_form .select2, .select2-container, .select2-container--default{
+    width: 230px!important;
+}
+
+.use_input{
+    border: 1px solid;
+    border-radius: 3px;
+    width: 130px;
+// float: left;
+padding: 6px 7px;
+overflow: hidden;
+margin-left: 13px;
+font-family: "RobotoLight";
+    font-size: 16px;
+}
+
+.alone_select .select2-container .select2-selection--single{
+    height: 36px;
+}
+
+.alone_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 35px;
+}
+
+.alone_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 14px;
+    font-family: "RobotoLight";
+}
+
+.alone_select .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 6px;
+}
+
+.use_input input{
+    width: 130px;
+    background-image: url(../images/calendar.png);  
+    background-repeat: no-repeat;   
+    background-position: 103px;
+    cursor: default;
+}
+
+.use_button{
+// padding-left: 30px;
+}
+
+.use_button_hover_in button:hover{
+    background-color: #E48F0E;
+}
+
+.use_button button{
+    padding: 4px 30px;
+    border: none;
+    background-color: #f99600;
+    color: white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    font-family: "RobotoLight";
+    font-size: 20px;
+}
+
+.travel_photo{
+   padding-bottom: 10px;
+}
+
+.photo_img_hover .product_description{
+    bottom: -64px;
+    /* padding-top: 15px; */
+    /* padding-bottom: 8px; */
+    display: none;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    /* padding-right: 14px; */
+    /* padding-left: 197px; */
+    padding: 19px 15px;
+    z-index: 1;
+    background: white;
+    height: 70px;
+    border-bottom: 1px solid #c5d4e9;
+    border-left: 1px solid #c5d4e9;
+    border-right: 1px solid #c5d4e9;
+    border-top: none;
+}
+
+.product_description button{
+    width: 100%;
+    border: none;
+    background-color: #0896ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: "RobotoRegular";
+    font-size: 16px;
+}
+
+.product_description button:hover {
+
+    background-color: #003580;
+
+}
+
+.photo_img_hover{
+    position: relative;
+        // padding: 1px;
+    }
+
+    .photo_img_hover div img{
+        max-width: 100%;
+    }
+
+    .travel_text{
+        font-family: "RobotoLight";
+        font-size: 24px;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .new_year_people{
+        background-image: url(../images/people_new_year.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        max-width: 1920px;
+    }
+
+    .new-year-people_text{
+        padding-top: 0px;
+        padding-bottom: 30px;
+        font-family: "RobotoLight";
+        font-size: 24px;
+        color: white;
+    }
+
+    .new-year-people_text_padding{
+        padding-top: 0;
+    }
+
+    .volna1{
+        padding-bottom: 0px;
+    }
+
+    .volna1_in{
+        height: 5px;
+        background-image: url(../images/volnu.png);
+        background-position: 0;
+        background-repeat: no-repeat;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        width: 100%;
+    }
+
+    .new-year-people_input button{
+        padding: 7px 0px;
+        width: 100%;
+        border: none;
+        background-color: #f99600;
+        color: white;
+        border-radius: 3px;
+        font-family: "RobotoLight";
+        font-size: 20px;
+    }
+
+    .new-year-people_input input{
+
+        background-color: rgba(0,0,0,0.3);
+        color: rgba(255,255,255,1);
+        padding: 9px 15px;
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 3px;
+    }
+
+    .new-year-people_input input::-webkit-input-placeholder       {color: white;}
+    .new-year-people_input input::-moz-placeholder                {color: white;}
+    .new-year-people_input input:-moz-placeholder                 {color: white;}
+    .new-year-people_input input:-ms-input-placeholder            {color: white;}
+
+
+    .new_year_people_down{
+// padding-top: 50px;
+padding-bottom: 30px;
+
+}
+
+.new_year_people_block{
+    position: relative;
+    padding-top: 88px;
+}
+
+.new_year_people_down1{
+    padding: 15px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-family: "RobotoLight";
+    font-size: 14px;
+    background-image: url(../images/maps_right.png);
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+
+}
+
+.new_year_people_down1_2_in{
+ border: 1px solid #333;
+ display: inline-block;
+ padding: 5px 15px; /* Поля */
+ text-decoration: none; /* Убираем подчёркивание */
+ color: #ffffff; /* Цвет текста */
+ border: none;
+ background-color: #f99600;
+ border-radius: 3px;
+ font-family: "RobotoLight";
+ font-size: 20px;
+}
+
+.new_year_people_down1_2{
+    // position: relative;
+    // top: 18px;
+    padding-top: 13px;
+}
+
+.new_year_people_down1_2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.new_year_people_down1_2 a:hover {
+    background-color: #E48F0E;
+}
+
+.alone_text-tour{
+    background-image: url(../images/icon_bus.png);
+    background-position-y: 70%;
+    background-position-x: 50%;
+}
+
+.alone_text1_packet{
+    padding-top: 0px;
+}
+
+.alone_text1_packet1{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.packet_on_12{
+    padding-top: 15px;
+}
+
+
+
+.photo_img_hover div:hover .product_description {
+    display: block;
+}
+.photo_img_hover div:hover {
+    // border-bottom: 0;
+}
+
+
+
+.packet_on{
+    background-image: url(../images/snow_blue.png);
+        background-position: center 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 1920px;
+}
+
+.packet_on .col-md-offset-1 {
+    margin-left: 4.333333%;
+}
+
+.packet_tour_foto{
+    background: url(../images/fon_white_blue.PNG) top center repeat-x;
+    max-width: 1920px;
+}
+
+.packet_tour_foto_in{
+
+}
+
+.packet_tour_foto_in_block{
+    width: 263px;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+.packet_tour_foto_in_block img{
+    max-width: 100%;
+}
+
+.tour_text{
+    font-family: "RobotoLight";
+    font-size: 16px;
+    color: #669dd2;
+    padding-top: 5px;
+}
+
+.tour_text1{
+    font-size: 14px;
+    color: black;
+}
+
+.tour_text2{
+    font-family: "RobotoBold";
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.snow_round-foto_packet{
+    -webkit-box-shadow: inset inset 0px 0px 0px 4px rgb(91,159,217);
+    -moz-box-shadow: inset 0px 0px 0px 4px rgb(91,159,217);
+    box-shadow: inset 0px 0px 0px 4px rgb(91,159,217);
+    padding-top: 0px;
+}
+
+.snow_round-foto_packet div{
+    padding-top: 16px;
+}
+
+.snow_round-foto_packet_first div{
+    padding-top: 32px;
+}
+
+.snow_round-foto_packet_last{
+    padding-top: 8px;
+}
+
+// .snow_round-text_packet{
+//     padding-bottom: 45px;
+// }
+
+.snow_round-text_packet span{
+    border:none;
+}
+
+.snow_round-foto_packet_min_on{
+    position: relative;
+}
+
+.snow_round-foto_packet_block_on{
+
+}
+
+.snow_round-foto_packet_min{
+    position: absolute;
+    top: 31px;
+}
+
+.snow_round-foto_packet_min1{
+    left: 35%;
+}
+
+.snow_round-foto_packet_min div{
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    font-family: "RobotoBold";
+    font-size: 30px;
+    color: white;
+    background-color: #f99600;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: inset inset 0px 0px 0px 3px #e5f1fb;
+    -moz-box-shadow: inset 0px 0px 0px 3px #e5f1fb;
+    box-shadow: inset 0px 0px 0px 3px #e5f1fb;
+    margin: 0 auto;
+}
+
+.packet_on_text{
+    font-family: "RobotoLight";
+    font-size: 14px;
+    color: #b4d5f1;
+    clear: both;
+}
+
+.alone_volna_white{
+    background-image: url(../images/uzor_white.png);
+    padding-top: 0px;
+    padding-bottom: 85px;
+}
+.packet_on .new-year-people_input input {
+    background-color: rgba(66,139,202,0.3);
+}
+
+.new_year_form{
+    padding-bottom: 51px;
+}
+
+.volna_packet{
+    // padding-top: 50px;
+    clear: both;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.packet_cruis{
+    background-image: url(../images/ocean_liner.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 1920px;
+}
+
+.alone_text-cruise{
+    background-image: url(../images/icon_cruise.png);
+    background-position-y: 100%;
+    background-position-x: 50%;
+    padding-top: 0px;
+    color: white;
+}
+
+.alone_text-cruise_1{
+    color: white;
+    font-family: "RobotoBold";
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.packet_cruis-block_text2{
+    color: white;
+    font-family: "RobotoLight";
+    font-size: 24px;
+}
+
+.packet_cruis-block_text2_1{
+    color: #f99600;
+    font-family: "RobotoBold";
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.extra_fon .packet_cruis_button_a{
+    padding-top: 32px;
+    padding-bottom: 130px;
+}
+
+.packet_cruis .who_snow_block{
+    padding-bottom: 0px;
+}
+
+.new_year_snow_blue_copi{
+    background:none;
+}
+
+.who_snow_block_text_copi{
+    color: black;
+}
+
+.new_year_snow_blue1_original .snow_round-foto-document{
+    padding-top: 24px;
+}
+
+.new_year_snow_blue1_original .snow_round-foto_bas{
+    padding-top: 24px;
+}
+
+.new_year_snow_blue1_original .snow_round-foto_cater {
+    padding-top: 30px;
+}
+
+.new_year_snow_blue_copi .snow_round-text {
+    color: black;
+    font-family: "RobotoLight";
+    font-size: 18px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.new_year_snow_blue_copi .snow_round-text_copi{
+    padding-top: 0px;
+}
+
+.new_year_snow_blue_copi .who_snow_block{
+    padding-bottom: 45px;
+}
+
+.packet_tour{
+    max-width: 1920px;
+}
+
+.new_year_snow_blue_copi .packet_cruis_button_a{
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+// .extra_fon_padding .col-md-6{
+// padding-left: 0px;
+// padding-right: 0px;
+// }
+
+.extra_fon{
+    background-image: url(../images/extra1_1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 1920px;
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    height: 664px;
+}
+
+.alone_text_extra{
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+.alone_text_extra a{
+    text-decoration: none;
+    color: white;
+}
+
+.extra_text2{
+    font-family: "RobotoLight";
+    font-size: 14px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.extra_fon_padding{
+    overflow: hidden;
+}
+
+.extra_two_fon{
+    clear: both;
+    background-image: url(../images/extra3_1.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 1920px;
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    height: 332px;
+}
+
+.extra_two_fon .alone_text_extra{
+    padding-top: 150px;
+}
+
+.extra_two_fon .packet_cruis_button_a{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.extra_two_fon1{
+    background-image: url(../images/extra4.png);
+}
+
+.extra_two_fon1 .alone_text_extra{
+    padding-top: 100px;
+}
+
+.extra_rel{
+    position: relative;
+}
+
+.text-absolut{
+    font-family: "RobotoMedium";
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    margin: 0 auto;
+    /* width: 46%; */
+    height: 55px;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+}
+
+.photo_absolute{
+	text-align: left;
+	width: 44px;
+	height: 44px;
+	margin: inherit;
+}
+
+.text-absolut1{
+    height: 5px;
+    background-image: url(../images/volnu_grey.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%; 
+    height: 55px;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+}
+
+.new_year_people_copi{
+    background-image: url(../images/people_new_year1.png);
+}
+
+.new_year_people_copi_grey{
+    font-family: "RobotoLight";
+    font-size: 24px;
+    color: #d4d4d6;
+}
+
+.footer{
+    max-width: 1920px;
+}
+
+.footer_soc{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer_soc div{
+    width: 26px;
+    height: 26px;
+    float: left;
+}
+
+.footer_soc div:first-child{
+    padding-left: 0px;
+}
+
+.footer_soc div{
+    padding-left: 10px;
+}
+
+.footer_soc div:last-child{
+    padding-left: 20px;
+}
+
+.footer_soc div img{
+    max-height: 100%;
+}
+
+.footer_text{
+    font-family: "RobotoLight";
+    font-size: 12px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer_bank{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_bank div{
+    float: left;
+    padding-left: 15px;
+}
+
+.footer_bank div:first-child{
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+// .footer_bank div:last-child{
+//     padding-left: 5px;
+// }
+
+.new_year_people_copi_input input{
+    background-color: rgba(0,0,0,0.3);
+    color: rgba(255,255,255,1);
+    padding: 9px 15px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.new_year_people_copi_but button{
+    padding: 6px 35px;
+    /* width: 100%; */
+    border: none;
+    background-color: #f99600;
+    color: white;
+    border-radius: 3px;
+    font-family: "RobotoLight";
+    font-size: 20px;
+}
+
+.new_year_people_copi_new_form{
+    padding-bottom: 73px;
+    padding-top: 88px;
+}
+
+.new_year_people_copi_input input::-webkit-input-placeholder       {color: white;}
+.new_year_people_copi_input input::-moz-placeholder                {color: white;}
+.new_year_people_copi_input input:-moz-placeholder                 {color: white;}
+.new_year_people_copi_input input:-ms-input-placeholder            {color: white;}
+
+.error{
+    border: 2px solid red;
+}
+
+.messenger{
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 3px 3px rgba(255,0,0,1);
+    box-shadow: 0px 0px 3px 3px rgba(255,0,0,1);
+}
+
+.fon-hide_black{
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -35px;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    z-index: 11;
+}
+
+.fon-hide_black_button_a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    margin: auto;
+    width: 95px;
+    height: 38px;
+}
+
+.fon-hide_black_button_a a{
+    text-decoration: none;
+    color: white;
+}
+
+.packet_tour_foto_in_block:hover .fon-hide_black {
+    opacity: 1;
+}
+
+
+.new_year_people_copi .select2-container--default .select2-selection--single{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.new_year_people_copi .select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: rgba(255,255,255,1);
+}
+
+.new_year_people_copi .use_input{
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid #aaa;
+    cursor: default;
+}
+
+.new_year_people_copi .use_input input{
+    background-color: rgba(0,0,0,0);
+    color: rgba(255,255,255,1);
+    background-image: url(../images/calendar1.png);
+}
+
+.new_year_people_copi .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent;
+}
+
+.new_year_people_copi .user_select_after:after{
+    background-image: url(../images/arrow1.png);
+    background-position: 0;
+}
+
+.new_year_people_copi .use_input input::-webkit-input-placeholder       {color: white;}
+.new_year_people_copi .use_input input::-moz-placeholder                {color: white;}
+.new_year_people_copi .use_input input:-moz-placeholder                 {color: white;}
+.new_year_people_copi .use_input input:-ms-input-placeholder            {color: white;}
+
+
+.alone_select .select2-container--default .select2-selection--single {
+    border: 1px solid black;
+}
+
+.new_year_people_copi .select2-container--default .select2-selection--single{
+	border: 1px solid #aaa;
+}
+
+.alone_select_mail{
+	
+}
+
+.tour_text2_enter{
+padding-top: 30px;
+}
